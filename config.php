@@ -1,8 +1,8 @@
 <?php
-    $server = "168.138.24.140/";
+    $server = "10.0.0.228";
     $user = "admin";
     $pass = "Admin123_";
-    $dbname = "sister";
+    $dbname = "utsSister";
 
     $connect = mysqli_connect($server, $user, $pass, $dbname);
     if ($connect) {
